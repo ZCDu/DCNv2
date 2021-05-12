@@ -7,10 +7,13 @@
     python testcuda.py   # run examples and gradient check on gpu 
 ```
 ### Note
-Now the master branch is for pytorch 1.x, you can switch back to pytorch 0.4 with,
-```bash
-git checkout pytorch_0.4
-```
+Now the master branch is for pytorch 1.7.0, configuration:
+1. python3.7.9
+2. cuda11.1( cuda11.0 cannot support RTX30 compute)
+3. gcc 9
+4. g++ 9
+5. Ubuntu2104
+6. pytorch1.7.0
 
 ### Known Issues:
 
